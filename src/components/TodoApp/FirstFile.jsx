@@ -83,7 +83,7 @@ function FirstFile() {
   // function update() {
   //   dispecth({ type: "UPDATE", payload: complete });
   // }
-  console.log(datals - a);
+  console.log("");
   return (
     <PropsData.Provider value={input}>
       <div className={dark ? "darkMode" : "ligthMode"}>
