@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  background-color: #b3e5fc;
+}
+.pocedex {
+  font-size: 50px;
+  padding: 20px;
+  margin-left: 60px;
+}
+.input {
+  padding: 40px;
+}
+input {
+  width: 110%;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.button {
+  height: 45px;
+  width: 50px;
+  margin: 20px;
+  margin-left: 30px;
+  margin-top: 38px;
+  border-radius: 10px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button {
+  justify-content: center;
+  align-items: center;
+}

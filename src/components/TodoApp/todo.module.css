@@ -1,0 +1,211 @@
+h2 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 30px;
+}
+img {
+  width: 10%;
+  margin-left: 45%;
+  border-radius: 20px;
+}
+.font {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+  margin-left: 20px;
+}
+.input {
+  gap: 10px;
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+}
+.input input {
+  margin: 10px;
+  border: white;
+}
+.fristPage {
+  width: 45%;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.input span {
+  align-items: center;
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.fristPage button {
+  border: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+}
+.fristPage button:hover {
+  background-color: #b3e5fc;
+}
+.icon {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+.ico {
+  height: 30px;
+  padding: 10px;
+}
+.view {
+  border-radius: 10px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  border: white;
+  background-color: ye;
+}
+.view:hover {
+  background-color: #b3e5fc;
+}
+.two {
+  padding: 10px;
+  display: flex;
+}
+ul li p {
+  border: 2px solid white;
+  padding: 12px;
+  margin: 10px;
+}
+body {
+  /* background-color: #80d8ff; */
+}
+li {
+  margin: 10px;
+  display: flex;
+  margin-left: 60px;
+  align-items: center;
+}
+li button {
+  margin: 10%;
+  position: absolute;
+}
+.deletebtn {
+  width: 3%;
+  height: 40px;
+}
+.deleteIcon {
+  width: 100%;
+  height: 18px;
+}
+.allLIst {
+  margin-left: 20%;
+  margin-top: 00px;
+  display: flex;
+}
+/* The switch container */
+.switch {
+  --transition: 300ms;
+  --transition500: 500ms;
+  --color-dark: #0c0f14;
+  --color-darkGray: #21262e;
+  --color-gray: #52555a;
+  --color-offwhite: #cecece;
+  --shadow-color: var(--color-dark);
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 60px;
+  height: fit-content;
+  background-color: var(--color-dark);
+  border-radius: 30px;
+  padding: 4px;
+  transition: var(--transition500);
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Svg styles */
+.switch .svg {
+  transition: var(--transition);
+  position: absolute;
+  left: 5px;
+}
+.switch .moon {
+  width: 18px;
+  fill: var(--color-gray);
+  opacity: 1;
+}
+
+.switch .sun {
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: calc(100% - 21.5px);
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 0.8;
+  opacity: 0;
+}
+
+.switch .sun .dot {
+  positon: relative;
+  display: block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--color-dark);
+  background: white;
+  z-index: 1;
+  box-shadow: 11px 0px 0px var(--shadow-color),
+    10.3px 0px 0px var(--shadow-color), -11px 0px 0px var(--shadow-color),
+    -10.3px 0px 0px var(--shadow-color), 0px -11px 0px var(--shadow-color),
+    0px -10.3px 0px var(--shadow-color), 0px 11px 0px var(--shadow-color),
+    0px 10.3px 0px var(--shadow-color), 8px 8px 0px var(--shadow-color),
+    7.3px 7.3px 0px var(--shadow-color), 8px -8px 0px var(--shadow-color),
+    7.3px -7.3px 0px var(--shadow-color), -8px -8px 0px var(--shadow-color),
+    -7.3px -7.3px 0px var(--shadow-color), -8px 8px 0px var(--shadow-color),
+    -7.3px 7.3px 0px var(--shadow-color);
+}
+
+.switch .sun .dot::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--color-dark);
+}
+.label input {
+  border: 2px solid white;
+  border-radius: 30%;
+}
+.dark {
+  font-size: 20px;
+  font-weight: 500;
+  color: #80d8ff;
+  padding: 10px;
+  margin: 2px;
+  margin-top: -3px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.update {
+  /* position: relative; */
+  width: 20%;
+  height: 20px;
+}
